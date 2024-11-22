@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+@font-face {
+  font-family: "Syncopate";
+  src: url("./fonts/syncopate-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lyons";
+  src: url("./fonts/538lyons.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.arrow {
+  @apply flex justify-center items-center h-12 w-12 rounded-full bg-arrow cursor-pointer hover:bg-orange-500 transition-all duration-300;
+  box-shadow: 2px 5px 12px 0px #f3f3f3;
+}
+.arrow:hover {
+  box-shadow: 2px 5px 12px 0px rgb(255 190 156);
+}
+.arrow-img {
+  @apply h-7 w-7 group-hover:invert;
+}
+.products--slider1 {
+  @apply flex justify-between items-center;
+}
+.details {
+  @apply w-72 h-96 bg-card p-5 font-josef rounded-lg border-2 border-gray-100 flex flex-col justify-between;
+  box-shadow: 2px 5px 12px 0px #f3f3f3;
+}
+.product--wishlist {
+  @apply flex justify-center items-center h-9 w-9 bg-white rounded-full absolute right-0 -top-5 cursor-pointer transition-all duration-300;
+}
+.product--wishlist svg {
+  @apply h-5 w-5 hover:fill-red-500 hover:stroke-red-500;
+}
+.product--image {
+  @apply flex justify-center items-center mt-5 mb-8 relative;
+}
+.product--content {
+  @apply flex justify-between items-center;
+}
+.product--name {
+  @apply capitalize font-bold text-lg;
+}
+.cart {
+  @apply flex justify-center items-center h-9 w-9 bg-white rounded-full cursor-pointer transition-all  duration-300 hover:invert;
+}
+.follow {
+  box-shadow: 2px 5px 12px 0px #f3f3f3;
+}
+.avatar img {
+  @apply h-60 w-60 rounded-2xl;
+}
+
+.circle-container {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circle-container svg {
+  @apply w-32 h-full absolute;
+}
+
+.circle-text {
+  @apply font-josef tracking-widest text-[18.5px];
+  fill: white; /* Text in white */
+}

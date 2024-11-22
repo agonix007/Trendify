@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trendify</title>
+  </head>
+  <body class="bg-offwhite">
+    <!-- Header Starts -->
+    <header class="px-40">
+      <!-- Inner Div -->
+      <nav
+        class="flex justify-between items-center w-full py-8 border-b-2 border-gray-200"
+      >
+        <!-- Logo -->
+        <div>
+          <a href="#" class="font-lyons text-3xl">Trendify.</a>
+        </div>
+        <!-- Navbar -->
+        <div>
+          <ul class="flex font-josef space-x-14">
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Winter</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </div>
+        <!-- Accounts -->
+        <div class="flex space-x-8">
+          <div class="h-7 w-7 cursor-pointer">
+            <img src="./images/search.svg" alt="search" />
+          </div>
+          <div class="h-7 w-7 cursor-pointer">
+            <img src="./images/heart.svg" alt="wishlist" />
+          </div>
+          <div class="flex items-center font-josef space-x-3 cursor-pointer">
+            <p class="font-semibold">Cart</p>
+            <div
+              class="flex justify-center items-center bg-black text-white rounded-full h-8 w-8"
+            >
+              0
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Hero Section Starts -->
+    <section class="flex justify-between items-center px-40 py-20">
+      <!-- Left Content -->
+      <div class="font-josef space-y-4">
+        <div class="flex relative">
+          <div class="h-5 w-5 bg-orange-600 rounded-full"></div>
+          <div class="h-5 w-5 bg-yellow-400 rounded-full absolute left-4"></div>
+          <div
+            class="h-5 w-5 border-2 border-black rounded-full absolute left-8 bg-white"
+          ></div>
+        </div>
+        <div>
+          <p class="leading-relaxed text-lg">
+            Fashion is a form of self- <br />
+            expression and autonomy <br />
+            at a particular period.
+          </p>
+        </div>
+        <div>
+          <a href="#" class="flex items-center uppercase font-bold text-xs"
+            >Read More
+            <div class="h-5 w-5 ml-1">
+              <img src="./images/diagonal-right.svg" alt="Read More" /></div
+          ></a>
+        </div>
+      </div>
+      <!-- Middle content -->
+      <div class="uppercase font-lyons text-center text-9xl tracking-wider">
+        <p>Clothes are</p>
+        <div class="flex justify-center items-center">
+          the
+          <div
+            class="flex justify-center items-center relative mx-4 px-10 border-4 border-black h-24 rounded-full"
+          >
+            <div class="bg-black w-32 h-1"></div>
+            <div
+              class="h-1 w-8 bg-black rotate-45 absolute top-8 right-8"
+            ></div>
+            <div
+              class="h-1 w-8 bg-black -rotate-45 absolute bottom-8 right-8"
+            ></div>
+          </div>
+          spirit
+        </div>
+        <p>of fashion</p>
+      </div>
+      <!-- Right Content -->
+      <div
+        class="flex flex-col items-center justify-center border-2 border-black rounded-full w-64 h-96 space-y-4 relative"
+      >
+        <div
+          class="flex flex-col items-center justify-center font-josef text-center bg-black text-white rounded-full h-28 w-28 absolute top-0 -right-6"
+        >
+          <p class="text-2xl font-bold">25<sup>%</sup>off</p>
+          <p class="text-[0.60rem]">our all-new arrivals</p>
+        </div>
+        <img
+          src="./images/pantaloones.png"
+          alt="hero_image"
+          class="h-80 absolute left-20"
+        />
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+
+    <!-- Popular Products start -->
+    <section class="px-40 py-16">
+      <!-- Headings -->
+      <div class="flex justify-between items-center mb-12">
+        <h2 class="font-lyons text-3xl uppercase">Popular &nbsp; Products</h2>
+        <div class="flex justify-center items-center text-4xl space-x-5">
+          <div class="arrow group">
+            <img
+              src="./images/arrow-right.svg"
+              alt="forward"
+              class="arrow-img"
+            />
+          </div>
+          <div class="arrow group">
+            <img
+              src="./images/arrow-left.svg"
+              alt="backward"
+              class="arrow-img"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Products -->
+      <div class="products--slider1">
+        <div class="card card--1">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/m1.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card--2">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/m2.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card--3">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/m3.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card--4">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/w2.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Popular Products end -->
+
+    <!-- Add1 starts -->
+    <section class="flex px-40 py-20">
+      <div class="w-1/2 flex flex-col items-start justify-center space-y-12">
+        <div class="uppercase font-josef font-bold text-8xl tracking-wide">
+          <h1>We Think</h1>
+          <h2 class="flex">you'll <span class="text-xl">like this</span></h2>
+        </div>
+        <p class="font-josef text-lg text-gray-700">
+          Fashion is a fom of self-experssion and autonomy at a <br />
+          particular period and place and in a specific context, of <br />
+          clothing, footwea, lifestyle, accessories. The latest <br />
+          fashion news, beauty covearrge, celebrity style.
+        </p>
+        <div class="flex items-center space-x-20 pt-8">
+          <div class="flex items-center space-x-4">
+            <div
+              class="flex justify-center items-center border-2 border-gray-400 h-12 w-12 rounded-full"
+            >
+              <div class="bg-black h-2 w-2 rounded-full"></div>
+            </div>
+            <div class="font-josef">
+              <p class="font-bold">Care instructions</p>
+              <p class="text-sm">Machine wash at 30°C</p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4">
+            <div
+              class="flex justify-center items-center border-2 border-gray-400 h-12 w-12 rounded-full"
+            >
+              <div class="bg-black h-2 w-2 rounded-full"></div>
+            </div>
+            <div class="font-josef">
+              <p class="font-bold">Fabric Material</p>
+              <p class="text-sm">84% cotton, 16% polyester</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 flex justify-end items-center">
+        <div class="w-4/6">
+          <img src="./images/2.png" alt="add" />
+        </div>
+      </div>
+    </section>
+    <!-- Add1 ends -->
+
+    <!-- Add2 starts -->
+    <section class="bg-gray-100 py-16">
+      <div class="flex h-[34rem] mx-40 border-2 border-black rounded-xl">
+        <div
+          class="flex items-end justify-between w-1/2 border-r-2 border-black relative"
+        >
+          <div class="circle-container absolute top-10 left-10">
+            <svg viewBox="0 0 200 200">
+              <!-- Define a circular path -->
+              <path
+                id="circlePath"
+                d="M 100, 100 m -90, 0 a 90,90 0 1,1 180,0 a 90,90 0 1,1 -180,0"
+                fill="none"
+              ></path>
+              <!-- Text on the path -->
+              <text>
+                <textPath
+                  href="#circlePath"
+                  class="circle-text uppercase"
+                  startOffset="0%"
+                >
+                  New arrivals . new arrivals . new arrivals .
+                </textPath>
+              </text>
+            </svg>
+          </div>
+          <p class="capitalize font-josef p-10 text-2xl font-bold">
+            Flow with <br />
+            the Trend
+          </p>
+          <img src="./images/3.png" alt="add2" class="h-[540px]" />
+        </div>
+        <div class="w-1/2 font-josef">
+          <div class="flex h-1/2 border-b-2 border-black">
+            <div
+              class="flex justify-center items-center w-1/2 border-r-2 border-black"
+            >
+              <div>
+                <p class="text-4xl font-bold">Pattern</p>
+                <p class="text-lg">Colorful & Print</p>
+              </div>
+            </div>
+            <div class="flex justify-center items-center w-1/2">
+              <p class="text-4xl font-bold">
+                We are the <br />
+                online platform <br />
+                for fashion and <br />lifestyle.
+              </p>
+            </div>
+          </div>
+          <div class="flex h-1/2">
+            <div
+              class="flex justify-center items-center w-1/2 border-r-2 border-black"
+            >
+              <div class="space-y-6">
+                <p class="text-lg">
+                  We have grown from a <br />
+                  pioneer in e-commerce to <br />
+                  become a leading Indian <br />
+                  online platfom.
+                </p>
+                <p class="text-lg">Read more &rarr;</p>
+              </div>
+            </div>
+            <div class="flex justify-center items-center w-1/2">
+              <div>
+                <p class="text-4xl font-bold">Material</p>
+                <p class="text-lg">100% cotton & polyester</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Add2 ends -->
+
+    <!-- Add3 starts -->
+    <section class="flex justify-between items-center px-40 py-20">
+      <h3 class="font-lyons text-5xl tracking-wider">
+        Outfit inspiration <br />
+        Snag their style
+      </h3>
+      <div class="flex relative">
+        <div class="h-7 w-7 bg-orange-600 rounded-full"></div>
+        <div class="h-7 w-7 bg-yellow-400 rounded-full absolute left-4"></div>
+        <div
+          class="h-7 w-7 border-2 border-black rounded-full absolute left-8 bg-white"
+        ></div>
+      </div>
+      <p class="font-josef">
+        Open communication and participation <br />
+        are pivotal elements of our company <br />
+        culture. How a bold idea spawned a <br />
+        leading Indian online platfom.
+      </p>
+    </section>
+    <!-- Add3 ends -->
+
+    <!-- Add4 start -->
+    <section class="px-40 py-20">
+      <h4
+        class="uppercase text-center font-josef font-bold text-9xl tracking-wider"
+      >
+        stay &nbsp;ahead &nbsp;of<br />
+        the &nbsp;crowd
+      </h4>
+    </section>
+    <!-- Add4 ends -->
+
+    <!-- New Arivals start -->
+    <section class="px-40 py-16">
+      <!-- Headings -->
+      <div class="flex justify-between items-center mb-12">
+        <h2 class="font-lyons text-3xl uppercase">New &nbsp; Arrivals</h2>
+        <div class="flex justify-center items-center text-4xl space-x-5">
+          <div class="arrow group">
+            <img
+              src="./images/arrow-right.svg"
+              alt="forward"
+              class="arrow-img"
+            />
+          </div>
+          <div class="arrow group">
+            <img
+              src="./images/arrow-left.svg"
+              alt="backward"
+              class="arrow-img"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Products -->
+      <div class="products--slider1">
+        <div class="card card--1">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/w1.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card--2">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/w3.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card--3">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/m4.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card--4">
+          <div class="details">
+            <div class="product--image">
+              <div class="product--wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <g data-name="Layer 2">
+                    <g data-name="heart">
+                      <rect width="24" height="24" opacity="0" />
+                      <path
+                        d="M12 21a1 1 0 0 1-.71-.29l-7.77-7.78a5.26 5.26 0 0 1 0-7.4 5.24 5.24 0 0 1 7.4 0L12 6.61l1.08-1.08a5.24 5.24 0 0 1 7.4 0 5.26 5.26 0 0 1 0 7.4l-7.77 7.78A1 1 0 0 1 12 21zM7.22 6a3.2 3.2 0 0 0-2.28.94 3.24 3.24 0 0 0 0 4.57L12 18.58l7.06-7.07a3.24 3.24 0 0 0 0-4.57 3.32 3.32 0 0 0-4.56 0l-1.79 1.8a1 1 0 0 1-1.42 0L9.5 6.94A3.2 3.2 0 0 0 7.22 6z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <img src="./images/w4.png" alt="product1" class="max-w-50" />
+            </div>
+            <div class="product--content">
+              <div>
+                <p class="product--name">Ladies kurta</p>
+                <p class="product--price">&#8377;237.00</p>
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" class="h-5 w-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- New Arivals end -->
+
+    <!-- Follow us start -->
+    <section
+      class="px-40 py-28 flex flex-col justify-center items-center space-y-16"
+    >
+      <div>
+        <h3 class="uppercase font-lyons text-7xl tracking-wide">
+          Follow &nbsp;us &nbsp;on
+        </h3>
+      </div>
+      <div
+        class="follow border-2 border-gray-100 w-60 px-5 py-2 rounded-lg bg-white flex justify-center items-center space-x-2"
+      >
+        <img src="./images/github.svg" alt="github" class="h-6 w-6" />
+        <p class="font-josef font-bold">@trendify.fashion</p>
+      </div>
+      <div class="avatar flex justify-between w-full">
+        <img src="./images/av1.png" alt="av1" />
+        <img src="./images/av2.png" alt="av2" />
+        <img src="./images/av3.png" alt="av3" />
+        <img src="./images/av4.png" alt="av4" />
+        <img src="./images/av1.png" alt="av1" />
+      </div>
+    </section>
+    <!-- Follow us end -->
+
+    <!-- Footer starts -->
+    <footer class="bg-gray-100 pt-16 pb-8">
+      <div class="px-40 font-josef">
+        <!-- upper footer -->
+        <div
+          class="flex justify-between items-start pb-16 border-b-2 border-gray-300"
+        >
+          <div class="space-y-4">
+            <h5 class="font-lyons text-3xl">Trendify.</h5>
+            <p class="text-sm text-gray-600">
+              Fashion is a form of self-expression and <br />
+              autonomy at a particular period and <br />
+              place and in a specific context.
+            </p>
+          </div>
+          <div>
+            <ul class="space-y-4 text-gray-600">
+              <li class="font-bold text-black"><a href="#">Home</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Winter</a></li>
+              <li><a href="#">Sale</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="space-y-4 text-gray-600">
+              <li class="font-bold text-black"><a href="#">Company</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="space-y-4 text-gray-600">
+              <li class="font-bold text-black"><a href="#">Gift Cards</a></li>
+              <li><a href="#">Buy gift card</a></li>
+              <li><a href="#">About gift card</a></li>
+              <li><a href="#">Redeem gift card</a></li>
+              <li><a href="#">Corporate gift card</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="space-y-4 text-gray-600">
+              <li class="font-bold text-black"><a href="#">Social</a></li>
+              <li><a href="#">X (Twitter)</a></li>
+              <li><a href="#">Github</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- lower footer -->
+        <div
+          class="flex items-center justify-between mt-8 text-sm text-gray-700"
+        >
+          <p>Privacy Policy</p>
+          <p>All rights reserved 2024&copy;Trendify.</p>
+          <p>Terms & conditions</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+  </body>
+</html>
